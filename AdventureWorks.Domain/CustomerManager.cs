@@ -23,7 +23,7 @@ namespace AdventureWorks.Domain
                 {
                     customers.Add(new Customer()
                     {
-                        ID = entity.CustomerId,
+                        Id = entity.CustomerId,
                         FirstName = entity.Person.FirstName,
                         LastName = entity.Person.LastName
                     });
@@ -44,7 +44,7 @@ namespace AdventureWorks.Domain
                 {
                     return new Customer()
                     {
-                        ID = customer.CustomerId,
+                        Id = customer.CustomerId,
                         FirstName = customer.Person.FirstName,
                         LastName = customer.Person.LastName
                     };
